@@ -28,7 +28,7 @@ public static String function(String str) {
     char[] symbol = str.toCharArray();
     int left = 0;
     int right = symbol.length - 1;
-
+    int a = 12;
 while (left < right) {
     if (!Character.isLetter(symbol[left])) {
         left++;
