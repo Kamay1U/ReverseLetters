@@ -1,15 +1,7 @@
-package com.onecommand;
+package com.example.util;
 
-public class ReverseLetters {
-
-
-    public static void main(String[] args) {
-        String str = "!2Good#game$$$";
-        System.out.println(ReverseLetters(str));
-
-    }
-
-    public static String ReverseLetters(String str) {
+public class StringUtil {
+    public static String reverseLetters(String str) {
         char[] symbol = str.toCharArray();
         int left = 0;
         int right = symbol.length - 1;
